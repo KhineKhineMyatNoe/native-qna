@@ -1,6 +1,6 @@
 import { QueryClient, useMutation, useQueryClient } from "@tanstack/react-query";
 import { FormEventHandler } from "react";
-import { createQuestionApi, QuestionCreateProps } from "../apis/question";
+import { createQuestionApi, QuestionCreateProps } from "../api-backend/apis/question";
 
 
 const useCreateQuestion = (goBack?:() =>void) => {

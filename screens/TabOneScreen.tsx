@@ -10,7 +10,11 @@ import EditScreenInfo from "../components/EditScreenInfo";
 import { Text, View } from "../components/Themed";
 import { RootTabScreenProps } from "../types";
 import { useQuery } from "@tanstack/react-query";
-import { questionApi, QuestionObj, ResultsObj } from "../apis/question";
+import {
+  questionApi,
+  QuestionObj,
+  ResultsObj,
+} from "../api-backend/apis/question";
 import { useCallback, useEffect, useState } from "react";
 import useCreateResult from "../hooks/useCreateResult";
 

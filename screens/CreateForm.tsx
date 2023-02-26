@@ -1,7 +1,7 @@
 import { useNavigation } from "@react-navigation/native";
 import { useState } from "react";
 import { ActivityIndicator, Text, TouchableOpacity, View } from "react-native";
-import { QuestionCreateProps } from "../apis/question";
+import { QuestionCreateProps } from "../api-backend/apis/question";
 import CustomTextInput from "../components/CustomTextInput";
 import CustomTitleText from "../components/CustomTitleText";
 import useCreateQuestion from "../hooks/useCreateQuestion";
