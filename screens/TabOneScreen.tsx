@@ -58,7 +58,7 @@ export default function TabOneScreen({
     index,
   }) => {
     return (
-      <View style={styles.questionContainer}>
+      <View style={styles.questionContainer} key={index}>
         <Text style={styles.questionText}>{item.attributes.question}</Text>
         {Object.entries(item.attributes.choices).map((choice) => (
           <View style={styles.radioBtnContainer}>
